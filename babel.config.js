@@ -11,6 +11,7 @@ module.exports = {
   ],
   plugins: [
     '@babel/plugin-transform-runtime', // enables the re-use of Babel's injected helper code to save on codesize.
+    '@vue/babel-plugin-jsx',
   ],
   exclude: [/core-js/],
 }

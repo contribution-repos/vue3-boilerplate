@@ -38,12 +38,12 @@ module.exports = {
   },
 
   plugins: [
-    new ESLintPlugin({
-      emitError: true,
-      emitWarning: true,
-      extensions: ['.ts', '.tsx', '.js', '.jsx', '.vue'],
-      formatter: require('eslint-formatter-friendly'),
-    }),
+    // new ESLintPlugin({
+    //   emitError: true,
+    //   emitWarning: true,
+    //   extensions: ['.ts', '.tsx', '.js', '.jsx', '.vue'],
+    //   formatter: require('eslint-formatter-friendly'),
+    // }),
     new VueLoaderPlugin(),
     new CaseSensitivePathsPlugin(),
     new HTMLPlugin({
